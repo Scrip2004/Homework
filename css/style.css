@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 34px auto;
+    position: relative;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 68px 0;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text{
+    margin: 0 0 0 17px;
+}
+
+.logo-text p{
+    font-family: 'Vibur', cursive;
+    font-size: 50px;
+}
+
+.header__setting {
+    display: flex;
+    align-items: center;
+}
+
+.setting-lang {
+    margin: 0 29px 0 0;
+}
+
+.text-en {
+    font-size: 18px;
+}
+
+.setting-buttons {
+    display: flex;
+}
+
+.btn-block-sign-up {
+    margin: 0 20px 0 0;
+}
+
+.btn-sign-up {
+    background-color: #3A5AFF;
+    color: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 600;
+}
+
+.btn-header {
+    display: block;
+    width: 110px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 0 14px 0;
+    border-radius: 4px;
+}
+
+.btn-block-log-in {
+    margin: 0 45px 0 0;
+}
+
+.btn-log-in {
+    border: 1px solid #979797;
+    color: #979797;
+    font-weight: bold;
+}
+
+.main-block {
+    max-width: 522px;
+}
+
+.main-block__title {
+    margin: 0 0 35px 0;
+}
+
+.main-title {
+    font-size: 74px;
+    font-weight: 800;
+    color: #2F281E;
+}
+
+.main-block__subtitle {
+    margin: 0 0 48px 0;
+}
+
+.main-subtitle {
+    font-size: 24px;
+    color: #544837;
+    line-height: 31px;
+}
+
+.main-block__button {
+    margin: 0 0 48px 0;
+}
+
+.main-btn {
+    width: 225px;
+    padding: 17px 0 19px 0;
+    background-color: #3A5AFF;
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.load-app__title {
+    margin: 0 0 18px 0;
+}
+
+.load-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.load-btn__apple{
+    margin: 0 14px 0 0;
+}
+
+.conatiner__image{
+    position: absolute;
+    top: 205px;
+    right: 38px;
+    z-index: -1;
+}
+
+.setting-buttons i {
+    display: none;
+}
